@@ -1,0 +1,66 @@
+:root{
+    /* Warna Warna Utama La Tazha */
+    --main-bg-color: #ffffff;  
+    --main-nav-color: #D9D9D9;
+    background-color: var(--main-bg-color);
+}
+
+body{
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+nav .NavBar{
+    width: 1703px;
+    height: 121px;
+    margin-top: 41px;
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+nav .NavBar .LineUp{
+    border: 2px solid var(--main-nav-color);
+}
+
+nav .NavBar .GroupNav{
+    width: 1701px;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .NavBar .GroupNav .Mid{
+    width: 585px;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav .NavBar .GroupNav .Mid li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .NavBar .GroupNav .Mid li:hover{
+    border-bottom: 2px solid black;
+}
+
+nav .NavBar .GroupNav .NoTelephone{
+    width: 250px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .NavBar .GroupNav .NoTelephone .Number{
+    font-size: 24px;
+    padding: 0pxx;
+}
+
+nav .NavBar .LineBottom{
+    border: 2px solid var(--main-nav-color);
+}
