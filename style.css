@@ -9,7 +9,10 @@ body{
     background-color: var(--main-bg-color);
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
 }
+
+/* Start NAVBAR */
 
 nav .NavBar{
     width: 1703px;
@@ -42,14 +45,18 @@ nav .NavBar .GroupNav .Mid{
 nav .NavBar .GroupNav .Mid li a{
     text-decoration: none;
     color: black;
+    font-weight: 400;
 }
 
-nav .NavBar .GroupNav .Mid li:hover{
+
+nav .NavBar .GroupNav .Mid li a:hover{
+    font-weight: 700;
     border-bottom: 2px solid black;
 }
 
+
 nav .NavBar .GroupNav .NoTelephone{
-    width: 250px;
+    width: 270px;
     height: 29px;
     display: flex;
     justify-content: space-between;
@@ -58,9 +65,71 @@ nav .NavBar .GroupNav .NoTelephone{
 
 nav .NavBar .GroupNav .NoTelephone .Number{
     font-size: 24px;
-    padding: 0pxx;
+    padding-left: calc(100% - 257px);
+    font-weight: 400;
 }
 
 nav .NavBar .LineBottom{
     border: 2px solid var(--main-nav-color);
 }
+
+/* END NAVBAR */
+
+/* START HOME */
+#home .content{
+    width: 1703px;  
+    display: flex;
+    margin: 0;
+    margin-top: 50px;
+    padding-left: 108px;
+    padding-right: 108px;
+    /* background-color: blue; */
+}
+
+#home .home-left{
+    width: 50%;
+}
+
+#home .home-left h1{
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+#home .home-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#home .home-right .img-home-right{
+    padding-left: calc(100% - 740px);
+}
+
+#home .home-right .img-home-right, p{
+    padding-left: calc(100% - 740px);
+    font-size: 28px;
+    font-weight: 400;
+    width: 656px;
+}
+
+#home .home-right .read-more a img{
+    margin-left: 17px;
+}
+
+#home .home-right .img-home-right, p a{
+    /* font-style: none; */
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 700px;
+    font-weight: bold;
+    font-size: 24px;
+    /* background-color: blue; */
+}
+/* END HOME */
