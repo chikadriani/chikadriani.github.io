@@ -15,11 +15,12 @@ body{
 /* Start NAVBAR */
 
 nav .NavBar{
-    width: 1703px;
+    width: 88.7vw;
     height: 121px;
+    margin: auto;
     margin-top: 41px;
-    padding-left: 108px;
-    padding-right: 108px;
+    /* padding-left: 5.6vw;
+    padding-right: 5.6vw; */
 }
 
 nav .NavBar .LineUp{
@@ -27,17 +28,21 @@ nav .NavBar .LineUp{
 }
 
 nav .NavBar .GroupNav{
-    width: 1701px;
+    width: 88.6vw;
     height: 77px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+nav #logo{
+    width: 12.6vw;
+}
+
 nav .NavBar .GroupNav .Mid{
-    width: 585px;
+    width: 30.5vw;
     display: flex;
-    font-size: 24px;
+    font-size: 1.25vw;
     justify-content: space-between;
     list-style: none;
 }
@@ -56,17 +61,21 @@ nav .NavBar .GroupNav .Mid li a:hover{
 
 
 nav .NavBar .GroupNav .NoTelephone{
-    width: 270px;
+    width: 14.2vw;
     height: 29px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+nav .NavBar .GroupNav .NoTelephone img{
+    width: 1.77vw;
+}
+
 nav .NavBar .GroupNav .NoTelephone .Number{
-    font-size: 24px;
-    padding-left: calc(100% - 257px);
+    font-size: 1.25vw;
     font-weight: 400;
+    margin-left: 0.6vw;
 }
 
 nav .NavBar .LineBottom{
@@ -77,40 +86,24 @@ nav .NavBar .LineBottom{
 
 /* START HOME */
 #home .content{
-    width: 1703px;  
+    width: 88.7vw;  
     display: flex;
     margin: 0;
     margin-top: 50px;
-    padding-left: 108px;
-    padding-right: 108px;
+    padding-left: 5.6vw;
+    padding-right: 5.6vw;
     /* background-color: blue; */
 }
 
 #home .home-left{
     width: 50%;
-}
-
-#home .home-left .img-home-left{
-    position: relative;
-    /* background-color: green; */
-    /* width:740px;
-    height:505px; */
-    padding: 0 !important;
-    width: max-content;
-    height: max-content;
-}
-
-
-#home .home-left .img-home-left .vector{
-    position: absolute;
-    bottom: 5px;
-    right: 0px;
+    /* background-color: blue; */
 }
 
 #home .home-left h1{
     font-family: 'Cinzel', serif;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 4.2vw;
     margin: 0;
     margin-bottom: 60px;
     padding: 0;
@@ -124,36 +117,75 @@ nav .NavBar .LineBottom{
     justify-content: space-between;
 }
 
+#home .home-left .img-home-left{
+    position: relative;
+    width: 42.3vw;
+}
+
+#home .home-left .img-home-left img{
+    width: 100%;
+}
+
+
+#home .home-left .img-home-left .vector{
+    position: absolute;
+    width: 14.58vw;
+    bottom: 4px;
+    right: 0px;
+}
+
 #home .home-right .img-home-right{
     position: relative;
+    width: 38.54vw;
+}
+
+#home .home-right .img-home-right img{
+    width: 100%;
 }
 
 #home .home-right .img-home-right .vector{
     position: absolute;
-    bottom: 6px;
-    right: -84px;
+    bottom: 4px;
+    right: 0;
+    width: 14.58vw;
 }
 
+#home .home-right .caption-home{
+    width: 38.96vw;
+    margin: 30px 0;
+}
 
-#home .home-right .img-home-right, p{
-    padding-left: calc(100% - 740px);
-    font-size: 28px;
+#home .home-right{
+    padding-left: 5vw;
+    font-size: 1.46vw;
     font-weight: 400;
-    width: 656px;
+    width: 34.2vw;
+    /* background-color: blue; */
 }
+
 
 #home .home-right .read-more a img{
-    margin-left: 17px;
+    margin-left: 0.89vw;
+}
+
+#home .home-right .arrow-read-more{
+    width: 0.83vw;
 }
 
 #home .home-right .img-home-right, p a{
     /* font-style: none; */
     text-decoration: none;
     color: black;
-    font-family: "Montserrat";
+    font-family: "cinzel";
     font-weight: 700px;
     font-weight: bold;
-    font-size: 24px;
-    /* background-color: blue; */
+    font-size: 1.25vw;
 }
 /* END HOME */
+
+div#divider{
+    width: 88.64vw;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #D9D9D9;
+}
