@@ -90,6 +90,23 @@ nav .NavBar .LineBottom{
     width: 50%;
 }
 
+#home .home-left .img-home-left{
+    position: relative;
+    /* background-color: green; */
+    /* width:740px;
+    height:505px; */
+    padding: 0 !important;
+    width: max-content;
+    height: max-content;
+}
+
+
+#home .home-left .img-home-left .vector{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
 #home .home-left h1{
     font-family: 'Cinzel', serif;
     font-weight: 400;
@@ -108,8 +125,15 @@ nav .NavBar .LineBottom{
 }
 
 #home .home-right .img-home-right{
-    padding-left: calc(100% - 740px);
+    position: relative;
 }
+
+#home .home-right .img-home-right .vector{
+    position: absolute;
+    bottom: 6px;
+    right: -84px;
+}
+
 
 #home .home-right .img-home-right, p{
     padding-left: calc(100% - 740px);
