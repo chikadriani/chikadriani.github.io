@@ -97,7 +97,6 @@ nav .NavBar .LineBottom{
 
 #home .home-left{
     width: 50%;
-    /* background-color: blue; */
 }
 
 #home .home-left h1{
@@ -137,16 +136,17 @@ nav .NavBar .LineBottom{
 #home .home-right .img-home-right{
     position: relative;
     width: 38.54vw;
+    border: 0px;
 }
 
-#home .home-right .img-home-right img{
+#home .home-right .img-home-right .picture-home-right{
     width: 100%;
 }
 
 #home .home-right .img-home-right .vector{
     position: absolute;
-    bottom: 4px;
-    right: 0;
+    bottom: 0.45vw;
+    right: 0px;
     width: 14.58vw;
 }
 
@@ -281,18 +281,17 @@ div#divider{
 
 
 #categories .cat-content .cat-bottom .card3{
-    width: 34.7vw;
+    width: 30.88vw;
 }
 #categories .cat-content .cat-bottom .card3 img{
-    width: 34.7vw;
-    height: inherit;
+    width: 30.88vw;
 }
 
 #categories .cat-content .cat-bottom .card4{
-    width: 46.354vw;
+    width: 50.15vw;
 }
 #categories .cat-content .cat-bottom .card4 img{
-    width: 46.354vw;
+    width: 50.15vw;
 }
 
 
