@@ -2,6 +2,7 @@
     /* Warna Warna Utama La Tazha */
     --main-bg-color: #ffffff;  
     --main-nav-color: #D9D9D9;
+    --main-font-color:#295546;
     background-color: var(--main-bg-color);
 }
 
@@ -10,6 +11,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
+    overflow-x: hidden;
 }
 
 /* Start NAVBAR */
@@ -19,8 +21,6 @@ nav .NavBar{
     height: 121px;
     margin: auto;
     margin-top: 41px;
-    /* padding-left: 5.6vw;
-    padding-right: 5.6vw; */
 }
 
 nav .NavBar .LineUp{
@@ -187,5 +187,113 @@ div#divider{
     width: 88.64vw;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     border: 1px solid #D9D9D9;
 }
+
+/* START HOME-categories */
+#categories{
+    width: 88.7vw;  
+    margin: auto;
+}
+
+#categories h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#categories .cat-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#categories .cat-header h1{
+    font-family: 'cinzel';
+    font-size: 3.12vw;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+#categories .cat-header .see-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6vw;
+    /* color: var(--main-font-color); */
+    color: black;
+    text-decoration: none;
+}
+
+#categories .cat-header .see-all p{
+    font-family: 'cinzel';
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#categories .cat-header .see-all img{
+    width: 0.83vw;
+}
+
+#categories .cat-content{
+    width: 100%;
+}
+
+#categories .cat-content h4{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#categories .cat-content p{
+    font-family: 'montserrat';
+    font-size: 1.04vw;
+    font-weight: 500;
+    line-height: 0;
+}
+
+#categories .cat-content .cat-top{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+}
+
+#categories .cat-content .cat-top .card1{
+    width: 46.354vw;
+}
+#categories .cat-content .cat-top .card1 img{
+    width: 46.354vw;
+}
+
+#categories .cat-content .cat-top .card2{
+    width: 34.7vw;
+}
+#categories .cat-content .cat-top .card2 img{
+    width: 34.7vw;
+}
+
+#categories .cat-content .cat-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+}
+
+
+#categories .cat-content .cat-bottom .card3{
+    width: 34.7vw;
+}
+#categories .cat-content .cat-bottom .card3 img{
+    width: 34.7vw;
+    height: inherit;
+}
+
+#categories .cat-content .cat-bottom .card4{
+    width: 46.354vw;
+}
+#categories .cat-content .cat-bottom .card4 img{
+    width: 46.354vw;
+}
+
+
+/* END HOME-categories */
