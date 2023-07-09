@@ -294,5 +294,163 @@ div#divider{
     width: 50.15vw;
 }
 
-
 /* END HOME-categories */
+/* START HOME-CTA */
+#cta{
+    width: 88.7vw;  
+    margin: 100px auto;
+    background-image: url('img/home-cta/quoted-img-opa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 558px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta h1{
+    font-family: 'cinzel';
+    font-weight: 200;
+    color: white;
+    width: 64vw;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-align: center;
+}
+/* END HOME-CTA */
+
+/* START HOME-styling */
+#styling{
+    width: 88.7vw;  
+    margin: auto;
+}
+
+#styling h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#styling .styling-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#styling .styling-header h1{
+    font-family: 'cinzel';
+    font-size: 3.12vw;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+#styling .styling-content{
+    width: 100%;
+}
+
+#styling .styling-content h4{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#styling .styling-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+}
+
+#styling .styling-content .card{
+    width: 23.125vw;
+}
+
+#styling .styling-content .card h4{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+#styling .styling-content .card p{
+    line-height: normal;
+    width: 22.24;
+    font-family: 'montserrat';
+    font-size: 1.04vw;
+}
+
+#styling .styling-content .card img{
+    width: 23.125vw;
+}
+/* END HOME-styling */
+
+/* START HOME-FAQ */
+#faq{
+    width: 88.7vw;  
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#faq .left{
+    width: 50%;
+}
+
+#faq .right{
+    padding-top: 15px;
+    width: 50%;
+}
+
+#faq .left h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+
+#faq .left h1{
+    font-family: 'cinzel';
+    font-size: 3.33vw;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+#faq .left p{
+    font-family: 'montserrat';
+    font-size: 1.041vw;
+    width: 31.52vw;
+}
+
+#faq .right .qna{
+    margin-bottom: 25px;
+}
+
+#faq .right .qna .question{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-weight: 500;
+}
+
+#faq .right .qna .question p{
+    font-size: 1.041vw;
+    font-family: 'cinzel';
+    letter-spacing: -1px;
+}
+
+#faq .right .qna .question .qna-icon{
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+#faq .right .qna .question .qna-icon:hover{
+    cursor: pointer;
+}
+
+
+#faq .right .qna .answer{
+    font-size: 1.041vw;
+    font-family: 'montserrat';
+    margin-bottom: 10px;
+    width: 38vw;
+}
+/* END HOME-FAQ */
