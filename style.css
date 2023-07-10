@@ -281,7 +281,7 @@ div#divider{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 6vw;
+    width: 8vw;
     /* color: var(--main-font-color); */
     color: black;
     text-decoration: none;
@@ -304,13 +304,13 @@ div#divider{
 
 #categories .cat-content h4{
     font-family: 'cinzel';
-    font-size: 1.56vw;
+    font-size: 2vw;
     font-weight: 500;
 }
 
 #categories .cat-content p{
     font-family: 'montserrat';
-    font-size: 1.04vw;
+    font-size: 1.4vw;
     font-weight: 500;
     line-height: 0;
 }

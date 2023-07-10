@@ -167,5 +167,27 @@
         font-size: 1.5vw;
     }
     /* END HOME */
+
+    /* START Categories */
+    #categories .cat-header .see-all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 12vw;
+        color: black;
+        text-decoration: none;
+    }
+    
+    #categories .cat-header .see-all p{
+        font-family: 'cinzel';
+        font-weight: bold;
+        letter-spacing: -1px;
+        color: var(--main-font-color);
+    }
+    
+    #categories .cat-header .see-all img{
+        width: 2vw;
+    }
+    /* END Categories */
 }
 
