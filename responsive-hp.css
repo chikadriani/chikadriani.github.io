@@ -19,7 +19,7 @@
     }
 
     nav #logo{
-        width: 22.6vw;
+        width: 25.6vw;
     }
 
     nav .NavBar .GroupNav .Mid{
@@ -114,4 +114,107 @@
         width: 25px;
         height: 25px;
     }
+
+    /* START HOME */
+    #home .content{
+        width: 88.7vw;  
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 10px;
+        padding-left: 4vw !important;
+        padding-right: 5.6vw;
+    }
+
+    #home .home-left{
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    #home .home-left h1{
+        font-family: 'Cinzel', serif;
+        font-weight: 400;
+        font-size: 8vw;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        color: var(--main-font-color);
+    }
+
+    #home .home-right{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 !important;
+    }
+
+    #home .home-left .img-home-left{
+        position: relative;
+        width: 100%;
+    }
+
+    #home .home-left .img-home-left img{
+        width: 100%;
+    }
+
+
+    #home .home-left .img-home-left .vector{
+        position: absolute;
+        width: 30vw;
+        bottom: 4px;
+        right: 0px;
+    }
+
+    #home .home-right .img-home-right{
+        position: relative;
+        width: 100%;
+        border: 0px;
+    }
+
+    #home .home-right .img-home-right .picture-home-right{
+        width: 100%;
+    }
+
+    #home .home-right .img-home-right .vector{
+        position: absolute;
+        bottom: 1.2vw;
+        right: 0px;
+        width: 30vw;
+    }
+
+    #home .home-right .caption-home{
+        width: 100%;
+        margin: 15px 0;
+        color: var(--main-font-color);
+        padding-left: 1px;
+    }
+
+    #home .home-right{
+        padding-left: 5vw;
+        font-size: 3vw;
+        font-weight: 400;
+        width: 34.2vw;
+    }
+
+
+    #home .home-right .read-more a img{
+        margin-left: 0.89vw;
+    }
+
+    #home .home-right .arrow-read-more{
+        padding-left: 5px !important;
+        width: 2.2vw;
+    }
+
+    #home .home-right .img-home-right, p a{
+        /* font-style: none; */
+        text-decoration: none;
+        color: var(--main-font-color);
+        font-family: "cinzel";
+        font-weight: 700px;
+        font-weight: bold;
+        font-size: 3.1vw;
+    }
+    /* END HOME */
 }
