@@ -500,10 +500,10 @@
 
 
     #faq .right .qna .answer{
-        font-size: 2.2vw;
+        font-size: 2.2vw !important;
         font-family: 'montserrat';
         margin-bottom: 10px;
-        width: 90%;
+        width: 90% !important;
         color: #7D7D7D;
     }
     /* END HOME-FAQ */
