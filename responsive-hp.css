@@ -336,4 +336,96 @@
     }
 
     /* End HOME-CATEGORIES */
+
+    /* START HOME-CTA */
+    #cta{
+        width: 88.7vw;  
+        margin: 100px auto;
+        background-image: url('img/home-cta/quoted-img-opa.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 558px;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cta h1{
+        font-size: 28px;
+        font-family: 'cinzel';
+        font-weight: 200;
+        color: white;
+        width: 70vw;
+        letter-spacing: 1px;
+        line-height: 50px;
+        text-align: center;
+    }
+    /* END HOME-CTA */
+
+    /* START HOME-styling */
+    #styling{
+        width: 88.7vw;  
+        margin: auto;
+    }
+
+    #styling h2{
+        font-family: 'cinzel';
+        font-size: 3.12vw;
+        font-weight: 500;
+    }
+
+    #styling .styling-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #styling .styling-header h1{
+        font-family: 'cinzel';
+        font-size: 6.24vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+
+    #styling .styling-content{
+        width: 100%;
+    }
+
+    #styling .styling-content h4{
+        font-family: 'cinzel';
+        font-weight: 500;
+        color: var(--main-font-color);
+        margin-bottom: 10px;
+    }
+
+    #styling .styling-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0;
+        flex-direction: column;
+    }
+
+    #styling .styling-content .card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #styling .styling-content .card h4{
+        font-family: 'cinzel';
+        font-size: 4.2vw;
+        font-weight: 300;
+        letter-spacing: normal !important;
+    }
+
+    #styling .styling-content .card p{
+        line-height: normal;
+        width: 100%;
+        font-family: 'montserrat';
+        font-size: 2.5vw;
+    }
+
+    #styling .styling-content .card img{
+        width: 100%;
+    }
+    /* END HOME-styling */
 }

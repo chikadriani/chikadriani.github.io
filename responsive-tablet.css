@@ -189,5 +189,70 @@
         width: 2vw;
     }
     /* END Categories */
+
+    /* START HOME-styling */
+    #styling{
+        width: 88.7vw;  
+        margin: auto;
+    }
+
+    #styling h2{
+        font-family: 'cinzel';
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    #styling .styling-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #styling .styling-header h1{
+        font-family: 'cinzel';
+        font-size: 4.2vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+
+    #styling .styling-content{
+        width: 100%;
+    }
+
+    #styling .styling-content h4{
+        font-family: 'cinzel';
+        font-weight: 500;
+        color: var(--main-font-color);
+        margin-bottom: 10px;
+    }
+
+    #styling .styling-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0;
+    }
+
+    #styling .styling-content .card{
+        width: 23.125vw;
+    }
+
+    #styling .styling-content .card h4{
+        font-family: 'cinzel';
+        font-size: 2.2vw;
+        font-weight: 300;
+        letter-spacing: -1px;
+    }
+
+    #styling .styling-content .card p{
+        line-height: normal;
+        width: 100%;
+        font-family: 'montserrat';
+        font-size: 1.3vw;
+    }
+
+    #styling .styling-content .card img{
+        width: 23.125vw;
+    }
+    /* END HOME-styling */
 }
 
