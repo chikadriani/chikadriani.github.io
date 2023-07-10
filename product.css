@@ -1,0 +1,139 @@
+/* START HOME-product */
+#product{
+    width: 88.7vw;  
+    margin: auto;
+}
+
+#product h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#product .product-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product .product-header h1{
+    font-family: 'cinzel';
+    font-size: 3.12vw;
+    font-weight: 500;
+    margin-top: 0;
+    color: var(--main-font-color);
+}
+
+#product .product-content{
+    width: 100%;
+}
+
+#product .product-content h4{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+    color: var(--main-font-color);
+    margin-bottom: 10px;
+}
+
+#product .product-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+#product .product-content .card{
+    width: 27vw;
+}
+
+#product .product-content .card img{
+    width: 27vw;
+}
+/* END HOME-product */
+
+/* START responsive breakpoint tablet */
+@media screen and (max-width:800px){
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 4vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 30px;
+        row-gap: 30px;
+    }
+}
+/* END responsive breakpoint tablet */
+
+/* START responsive breakpoint hp */
+@media screen and (max-width:600px){
+    #product{
+        width: 88.7vw;  
+        margin: auto;
+    }
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        width: 100%;
+    }
+    
+    #product .product-content h4{
+        font-family: 'cinzel';
+        font-size: 1.56vw;
+        font-weight: 500;
+        color: var(--main-font-color);
+        margin-bottom: 10px;
+    }
+    
+    #product .product-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        /* row-gap: 20px; */
+    }
+    
+    #product .product-content .card{
+        width: 100%;
+    }
+    
+    #product .product-content .card img{
+        width: 100%;
+    }
+}
+/* END responsive breakpoint hp */
