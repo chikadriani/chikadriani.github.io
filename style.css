@@ -39,6 +39,10 @@ nav #logo{
     width: 12.6vw;
 }
 
+nav #logo-hp{
+    display: none;
+}
+
 nav .NavBar .GroupNav .Mid{
     width: 30.5vw;
     display: flex;
@@ -68,6 +72,10 @@ nav .NavBar .GroupNav .NoTelephone{
     align-items: center;
 }
 
+nav .NavBar .GroupNav .NoTelephone-hp{
+    display: none;
+}
+
 nav .NavBar .GroupNav .NoTelephone img{
     width: 1.77vw;
 }
@@ -80,6 +88,57 @@ nav .NavBar .GroupNav .NoTelephone .Number{
 
 nav .NavBar .LineBottom{
     border: 2px solid var(--main-nav-color);
+}
+
+/* awal nav menu toggle */
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+}
+
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    opacity: 0;
+    left: -10px;
+    top: -7px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: var(--main-font-color);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+    opacity: 0;
+    transform: scale(0);
 }
 
 /* END NAVBAR */

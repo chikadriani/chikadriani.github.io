@@ -1,0 +1,71 @@
+@media screen and (max-width:800px){
+    /* Start NAVBAR */
+    nav .NavBar{
+        width: 88.7vw;
+        height: 100px;
+        margin: auto;
+        margin-top: 31px;
+    }
+
+    nav .NavBar .LineUp{
+        border: 2px solid var(--main-nav-color);
+    }
+
+    nav .NavBar .GroupNav{
+        width: 88.6vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav #logo{
+        width: 22.6vw;
+    }
+
+    nav .NavBar .GroupNav .Mid{
+        width: 35.5vw;
+        display: flex;
+        font-size: 1.65vw;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0 !important;
+    }
+
+    nav .NavBar .GroupNav .Mid li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+    }
+
+
+    nav .NavBar .GroupNav .Mid li a:hover{
+        font-weight: 700;
+        border-bottom: 2px solid black;
+    }
+
+
+    nav .NavBar .GroupNav .NoTelephone{
+        width: 18.2vw;
+        height: 29px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .NavBar .GroupNav .NoTelephone img{
+        width: 2vw;
+    }
+
+    nav .NavBar .GroupNav .NoTelephone .Number{
+        font-size: 1.65vw;
+        font-weight: 400;
+        margin-left: 0.6vw;
+    }
+
+    nav .NavBar .LineBottom{
+        border: 2px solid var(--main-nav-color);
+    }
+    /* END NAVBAR */
+}
+

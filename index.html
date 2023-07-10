@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-tablet.css">
+    <link rel="stylesheet" href="responsive-hp.css">
     <title>La Tazha</title>
 </head>
 
@@ -18,11 +20,18 @@
             <div class="GroupNav">
                 <img id="logo" src="img/Logo-La-Tazha.png" alt="Logo La Tazha">
                 <ul class="Mid">
+                    <img id="logo-hp" src="img/Logo-La-Tazha.png" alt="Logo La Tazha">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Product</a></li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Contact</a></li>
+                    <div class="NoTelephone-hp">
+                        <img class="hp" src="img/icon/icon-telephone.png" alt="Icon Telephone">
+                        <p class="Number">
+                            +62 858 8862 8282
+                        </p>
+                    </div>
                 </ul>
                 <div class="NoTelephone">
                     <img src="img/icon/icon-telephone.png" alt="Icon Telephone">
@@ -30,6 +39,15 @@
                         +62 858 8862 8282
                     </p>
                 </div>
+
+                <!-- ini untuk menu toggle -->
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- akhir menu toggle -->
             </div>
             <!-- Penutup Isi Navbar -->
             <hr class="LineBottom">
@@ -253,6 +271,7 @@
         </div>
     </div>
     <!-- END HOME-footer -->
+    <script src="script.js"></script>
 </body>
 
 </html>
