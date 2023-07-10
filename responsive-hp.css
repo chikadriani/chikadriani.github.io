@@ -248,7 +248,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 17vw;
+        width: 20vw;
         color: black;
         text-decoration: none;
     }
@@ -351,7 +351,7 @@
     }
 
     #cta h1{
-        font-size: 28px;
+        font-size: 25px;
         font-family: 'cinzel';
         font-weight: 200;
         color: white;
@@ -584,11 +584,15 @@
     #footer .bottom{
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
     #footer .bottom .bottom-left{
-        width: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
     }
 
     #footer .bottom .bottom-right{
