@@ -1,0 +1,224 @@
+/* START HOME-product */
+#product-detail{
+    width: 88.7vw;  
+    margin: 25px auto;
+}
+
+#product-detail .detail-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-detail .detail-top .detail-top-left{
+    width: 42.35vw;
+    position: relative;
+}
+#product-detail .detail-top .detail-top-left img{
+    width: 42.35vw;
+}
+
+#product-detail .detail-top .detail-top-left img.arrow-left{
+    position: absolute;
+    left: 30px;
+    width: 2.5vw;
+    top: 45%;
+}
+#product-detail .detail-top .detail-top-left img.arrow-right{
+    position: absolute;
+    width: 2.5vw;
+    right: 30px;
+    top: 45%;
+}
+
+#product-detail .detail-top .detail-top-left img.arrow-left:hover,
+#product-detail .detail-top .detail-top-left img.arrow-right:hover{
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+#product-detail .detail-top .detail-top-right{
+    padding-left: 6vw !important;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#product-detail .detail-top .detail-top-right .up h1{
+    margin: 0 !important;
+    font-size: 3.33vw;
+    font-family: 'cinzel';
+    letter-spacing: -1px;
+    color: var(--main-font-color);
+    font-weight: 100;
+}
+
+#product-detail .detail-top .detail-top-right .up p{
+    font-family: 'montserrat';
+    font-size: 1.25vw;
+    width: 30vw;
+}
+
+#product-detail .detail-top .detail-top-right .down img{
+    width: 7.2vw;
+    margin-right: 10px;
+}
+
+#product-detail .detail-top .detail-top-right .down img:nth-child(2){
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#product-detail .detail-top .detail-top-right .down button{
+    padding: 10px;
+    width: 15.6vw;
+    background-color: var(--main-nav-color);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-items: center;
+    transition: .2s;
+
+    font-family: 'cinzel';
+    font-size: 1.041vw;
+    color: var(--main-font-color);
+    font-weight: 600 !important;
+}
+
+#product-detail .detail-top .detail-top-right .down button:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+#product-detail .detail-top .detail-top-right .down button img{
+    width: 1.25vw;
+    transform: translateX(5px);
+    transform: translateY(3px);
+}
+
+#product-detail .detail-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#product-detail .detail-bottom h3{
+    font-family: 'cinzel';
+    font-size: 2.1vw;
+    color: var(--main-font-color);
+    font-weight: 200;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+
+#product-detail .detail-bottom p{
+    font-family: 'montserrat';
+    font-size: 1.25vw;
+    margin: 5px 0;
+}
+
+#product-detail .detail-bottom .detail-bottom-left{
+    width: 50% !important;
+    box-sizing: border-box;
+}
+
+#product-detail .detail-bottom .detail-bottom-right{
+    padding-left: 6vw;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* last product detail */
+
+
+
+
+/* END HOME-product */
+
+/* START responsive breakpoint tablet */
+@media screen and (max-width:800px){
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 4vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 30px;
+        row-gap: 30px;
+    }
+}
+/* END responsive breakpoint tablet */
+
+/* START responsive breakpoint hp */
+@media screen and (max-width:600px){
+    #product{
+        width: 88.7vw;  
+        margin: auto;
+    }
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        width: 100%;
+    }
+    
+    #product .product-content h4{
+        font-family: 'cinzel';
+        font-size: 1.56vw;
+        font-weight: 500;
+        color: var(--main-font-color);
+        margin-bottom: 10px;
+    }
+    
+    #product .product-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        /* row-gap: 20px; */
+    }
+    
+    #product .product-content .card{
+        width: 100%;
+    }
+    
+    #product .product-content .card img{
+        width: 100%;
+    }
+}
+/* END responsive breakpoint hp */

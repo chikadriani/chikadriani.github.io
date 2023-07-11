@@ -46,6 +46,12 @@
 
 #product .product-content .card{
     width: 27vw;
+    transition: .5s;
+}
+
+#product .product-content .card:hover{
+    cursor: pointer;
+    filter: brightness(50%);
 }
 
 #product .product-content .card img{
