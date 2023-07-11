@@ -1,0 +1,380 @@
+/* START ABOUT-US */
+#about-us{
+    width: 88.7vw;  
+    margin: 2.5rem auto;
+}
+
+#about-us h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#about-us .cat-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us .cat-header h1{
+    font-family: 'cinzel';
+    font-size: 3.33vw;
+    font-weight: 300;
+    margin-top: 0;
+    color: var(--main-font-color);
+    letter-spacing: -1px;
+}
+
+#about-us .about.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about-us .about.content .about-content,
+#about-us .about.content .vision-content,
+#about-us .about.content .mission-content {
+    width: 50.2vw;
+}
+
+
+#about-us .about.content .text-content .about-content .title,
+#about-us .about.content .text-content .vision-content .title,
+#about-us .about.content .text-content .mission-content .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+#about-us .about.content .text-content .about-content .title h3,
+#about-us .about.content .text-content .vision-content .title h3,
+#about-us .about.content .text-content .mission-content .title h3 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.66vw;
+    font-weight: lighter;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--main-font-color);
+    padding-top: 3px;
+    margin: 0;
+}
+
+#about-us .about.content .text-content .about-content .title img,
+#about-us .about.content .text-content .vision-content .title img,
+#about-us .about.content .text-content .mission-content .title img {
+    width: 1.8vmax;
+    padding-right: 1rem;
+}
+
+
+#about-us .about.content .text-content .about-content .body p,
+#about-us .about.content .text-content .vision-content .body p,
+#about-us .about.content .text-content .mission-content .body p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#about-us .about.content .text-content .mission-content .body p {
+    margin-bottom: 10px;
+}
+
+#about-us .about.content .img-content img {
+    width: 30.8vw;
+}
+
+
+#about-cta {
+    width: 88.7vw;
+    height: 558px;
+    margin: auto;
+    background-image: url('img/about-img/image-bottom.png');
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+#about-cta .cta {
+    margin: auto;
+}
+
+#about-cta .cta .cta-ask h3 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--main-bg-color);
+    margin-bottom: 0px !important;
+}
+
+#about-cta .cta .cta-ask  p {
+    font-family: 'Montserrat';
+    font-size: 1.66vw;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px !important;
+}
+
+#about-cta .cta .cta-btn{
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    width: max-content;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 100px !important;
+    margin: auto;
+}
+
+#about-cta .cta .cta-btn a{
+    font-size: 1.25vw;
+    font-family: 'cinzel';
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#about-cta .cta .cta-btn:hover{
+    background-color: white;
+}
+
+#about-cta .cta .cta-btn:hover a{
+    color:black;
+}
+
+
+@media screen and (max-width:800px){
+    #about-us h2{
+        font-size: 1.7vw;
+    }
+    
+    #about-us .cat-header h1{
+        font-size: 4vw;
+    }
+
+    #about-us .about.content .text-content .about-content .title h3,
+    #about-us .about.content .text-content .vision-content .title h3,
+    #about-us .about.content .text-content .mission-content .title h3 {
+        font-size: 1.8vw;
+    }
+
+    #about-us .about.content .text-content .about-content .title,
+    #about-us .about.content .text-content .vision-content .title,
+    #about-us .about.content .text-content .mission-content .title {
+        margin-bottom: 10px;
+    }
+
+    #about-us .about.content .text-content .about-content .body p,
+    #about-us .about.content .text-content .vision-content .body p,
+    #about-us .about.content .text-content .mission-content .body p
+    {
+        font-size: 1.35vw;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+
+    #about-us .about.content .text-content .mission-content .body p {
+        margin-bottom: 5px;
+    }
+
+    #about-cta .cta .cta-ask h3 {
+        font-family: 'Cinzel', sans-serif;
+        font-size: 3vw;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 2px;
+        text-align: center;
+        color: var(--main-bg-color);
+        margin-bottom: 0px !important;
+    }
+    
+    #about-cta .cta .cta-ask  p {
+        font-family: 'Montserrat';
+        font-size: 2vw;
+        font-weight: 400;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #fff;
+        margin-top: 10px !important;
+    }
+
+    #about-cta .cta .cta-btn{
+        padding: 20px 60px;
+    }
+
+    #about-cta .cta .cta-btn a{
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    /* START ABOUT-US */
+    #about-us{
+        width: 88.7vw;  
+        margin: 1rem auto;
+    }
+
+    #about-us h2{
+        font-family: 'cinzel';
+        font-size: 3.12vw;
+        font-weight: 500;
+    }
+
+    #about-us .cat-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-us .cat-header h1{
+        font-family: 'cinzel';
+        font-size: 6.66vw;
+        font-weight: 300;
+        margin-top: 0;
+        color: var(--main-font-color);
+        letter-spacing: -1px;
+    }
+
+    #about-us .about.content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #about-us .about.content .about-content,
+    #about-us .about.content .vision-content,
+    #about-us .about.content .mission-content {
+        width: 100%;
+    }
+
+
+    #about-us .about.content .text-content .about-content .title,
+    #about-us .about.content .text-content .vision-content .title,
+    #about-us .about.content .text-content .mission-content .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+
+    #about-us .about.content .text-content .about-content .title h3,
+    #about-us .about.content .text-content .vision-content .title h3,
+    #about-us .about.content .text-content .mission-content .title h3 {
+        font-family: 'Cinzel', sans-serif;
+        font-size: 3.2vw;
+        font-weight: lighter;
+        line-height: 1.2em;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--main-font-color);
+        padding-top: 3px;
+        margin: 0;
+    }
+
+    #about-us .about.content .text-content .about-content .title img,
+    #about-us .about.content .text-content .vision-content .title img,
+    #about-us .about.content .text-content .mission-content .title img {
+        width: 3.4vw;
+        padding-right: 1rem;
+    }
+
+
+    #about-us .about.content .text-content .about-content .body p,
+    #about-us .about.content .text-content .vision-content .body p,
+    #about-us .about.content .text-content .mission-content .body p
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.3vw;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    #about-us .about.content .text-content .mission-content .body p {
+        margin-bottom: 10px;
+    }
+
+    #about-us .about.content .img-content img {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+
+    #about-cta {
+        width: 88.7vw;
+        height: 558px;
+        margin: auto;
+        background-image: url('img/about-img/image-bottom.png');
+        background-size: cover;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-cta .cta {
+        margin: auto;
+    }
+
+    #about-cta .cta .cta-ask h3 {
+        font-family: 'Cinzel', sans-serif;
+        font-size: 4vw;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 1px;
+        text-align: center;
+        color: var(--main-bg-color);
+        margin-bottom: 0px !important;
+    }
+
+    #about-cta .cta .cta-ask  p {
+        font-family: 'Montserrat';
+        font-size: 2.5vw;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #fff;
+        margin-top: 10px !important;
+    }
+
+    #about-cta .cta .cta-btn{
+        padding: 20px 80px;
+        background-color: transparent;
+        border: 1px solid white;
+        cursor: pointer;
+        width: max-content;
+        transition: 0.3s;
+        border-radius: 5px;
+        margin-top: 100px !important;
+        margin: auto;
+    }
+
+    #about-cta .cta .cta-btn a{
+        font-size: 2.5vw;
+        font-family: 'cinzel';
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+    #about-cta .cta .cta-btn:hover{
+        background-color: white;
+    }
+
+    #about-cta .cta .cta-btn:hover a{
+        color:black;
+    }
+}
