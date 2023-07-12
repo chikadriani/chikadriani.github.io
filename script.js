@@ -12,7 +12,7 @@ menuToggle.addEventListener('click', function(){
 function qna(numberClassNameQuestion){
     const qnaIcon = document.querySelector('#faq .right .qna .question .qna-icon.q' + numberClassNameQuestion );
     let qnaIconSRC = document.querySelector('#faq .right .qna .question .qna-icon.q' + numberClassNameQuestion ).getAttribute("src");
-    const qnaAnswer = document.querySelector('#faq .right .qna .answer.a1');
+    const qnaAnswer = document.querySelector('#faq .right .qna .answer.a' + numberClassNameQuestion);
     
     if(qnaIconSRC == 'img/home-faq/Plus.png'){
         qnaIcon.src='img/home-faq/Minus.png';

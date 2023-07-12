@@ -75,7 +75,7 @@ nav .NavBar .GroupNav .Mid li a.active{
 
 
 nav .NavBar .GroupNav .NoTelephone{
-    width: 14.2vw;
+    width: 14.2vw ;
     height: 29px;
     display: flex;
     justify-content: space-between;
@@ -335,6 +335,12 @@ div#divider{
     color: var(--main-font-color);
 }
 
+#categories .cat-content .cat-top img:hover,
+#categories .cat-content .cat-bottom img:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
 #categories .cat-content .cat-top .card1{
     width: 46.354vw;
 }
@@ -494,10 +500,14 @@ div#divider{
     color: var(--main-font-color);
 }
 
-#faq .left p{
+#faq .left p, #faq .left a{
     font-family: 'montserrat';
     font-size: 1.041vw;
     width: 31.52vw;
+}
+
+#faq .left a{
+    text-decoration: underline;
 }
 
 #faq .right .qna{
@@ -614,7 +624,7 @@ div#divider{
 }
 
 #footer .footer-content .top .top-left a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 #footer .divider-footer{
