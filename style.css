@@ -73,13 +73,20 @@ nav .NavBar .GroupNav .Mid li a.active{
     border-bottom: 2px solid black;
 }
 
-
 nav .NavBar .GroupNav .NoTelephone{
     width: 14.2vw ;
     height: 29px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav .NavBar .GroupNav a{
+    font-size: 1.25vw;
+    font-weight: 400;
+    margin-left: 0.6vw;
+    text-decoration: none;
+    color: black;
 }
 
 nav .NavBar .GroupNav .NoTelephone-hp{
