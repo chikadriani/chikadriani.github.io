@@ -90,6 +90,11 @@
     filter: brightness(80%);
 }
 
+#product-detail .detail-top .detail-top-right .down a{
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
 #product-detail .detail-top .detail-top-right .down button{
     padding: 10px;
     width: 15.6vw;
