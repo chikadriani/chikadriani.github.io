@@ -1,9 +1,8 @@
 const menuToggle = document.querySelector('.menu-toggle input');
 const navMid = document.querySelector('nav .NavBar .GroupNav .Mid');
-// const qnaIcon1 = document.querySelector('#faq .right .qna .question .qna-icon.q1');
-// let qnaIcon1SRC = document.querySelector('#faq .right .qna .question .qna-icon.q1').getAttribute("src");
-// const qnaAnswer1 = document.querySelector('#faq .right .qna .answer.a1');
 const body = document.getElementById('body');
+const arrowLeft = document.querySelector('#product-detail .arrow-left');
+const arrowRight = document.querySelector('#product-detail .arrow-right');
 
 menuToggle.addEventListener('click', function(){
     navMid.classList.toggle("tampil");
@@ -25,3 +24,32 @@ function qna(numberClassNameQuestion){
         qnaAnswer.classList.remove("active")
     }
 }
+
+// carousel
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n){
+    showSlides(slideIndex += n)
+}
+
+function showSlides(n){
+    var i;
+    var slides = document.getElementsByClassName('slide');
+    var slidesSmall = document.getElementsByClassName('slide-small');
+
+    if(n > slides.length){
+        slideIndex = 1;
+    }
+    if(n < 1){
+        slideIndex = slides.length;
+    }
+    for(i = 0; i< slides.length ; i++){
+        slides[i].style.display = 'none';
+
+        slidesSmall[i].classList.remove('active-small');
+    }
+    slides[slideIndex-1].style.display = 'block';
+    slidesSmall[slideIndex-1].classList.add('active-small')
+}
+
